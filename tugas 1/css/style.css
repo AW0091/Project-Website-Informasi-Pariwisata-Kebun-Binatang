@@ -4,6 +4,14 @@ body{
     color: #525960;
 }
 
+body {
+    background-image: url("../img/bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+   }
+
 /*TOP BAR HEADER*/
 .top-bar{
     background: #2eb82e;
