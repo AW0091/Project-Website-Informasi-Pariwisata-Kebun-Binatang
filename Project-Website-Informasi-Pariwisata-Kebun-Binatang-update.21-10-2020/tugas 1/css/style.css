@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
 body{
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
@@ -11,6 +13,14 @@ body {
     background-attachment: fixed;
     background-position: center; 
    }
+
+
+   .tk{
+    font-size: 1.15rem;
+    font-family: 'Merriweather', serif;
+    
+}
+
 
 /*TOP BAR HEADER*/
 .top-bar{
@@ -47,7 +57,7 @@ body {
 }
 
 .carousel-inner {
-	max-height: 38rem!important;
+	max-height: 50rem!important;
 }
 
 .carousel-item-next,
@@ -103,7 +113,76 @@ btn-primary:focus {
 .fixed-background {
     padding: 10rem 0;
 }
+
+.back2{
+    background-image: url('../img/paper.jpg');
+    position: static;
+    padding: 2.5rem 0;
+}
+
+.back1{
+    background-image: url('../img/leave.png');
+    position: static;
+    padding: 2.5rem 0;
+}
+
+
 /*FOOTER*/
+footer{
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .box{
+    flex-basis: 30%;
+    padding: 10px 20px;
+
+}
+
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .social{
+    margin : 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px;
+}
+
+.left .content .social a span{
+    height:40px;
+    width:40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover{
+    background: #f12020;
+
+}
+
 /*SOCKET*/
 /*MEDIA QUERIES*/
 @media (max-width: 119.98px){
@@ -165,4 +244,8 @@ Extra
     transform: translateZ(0);
     will-change: transform;
 }
+.padding{
+    padding: 3rem 0;
+}
+
 
