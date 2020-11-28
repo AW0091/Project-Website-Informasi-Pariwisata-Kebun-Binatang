@@ -56,6 +56,18 @@ a.dropdown-item{
 #carousel {
 	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
 }
+#carousel-b {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-c {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-d {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-e {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
 
 .carousel-inner {
 	max-height: 50rem!important;
