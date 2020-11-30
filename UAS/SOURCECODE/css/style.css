@@ -245,4 +245,11 @@ a.dropdown-item{
     padding: 3rem 0;
 }
 
+.video{
+	position relative;
+	width: 100%;
+	top:0;
+	height: auto;
+}
+
 
