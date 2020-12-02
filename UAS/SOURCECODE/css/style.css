@@ -136,6 +136,15 @@ a.dropdown-item{
     background-image: url('../img/generic/family.jpg');
     position: fixed;
 }
+
+/*TEXT*/
+.animalslist .container a{
+    color: #123017;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: .025rem .025rem .025rem rgb(9, 255, 0);
+}
+
 /*END BODY*/
 
 /*FOOTER*/
@@ -243,13 +252,6 @@ a.dropdown-item{
 }
 .padding{
     padding: 3rem 0;
-}
-
-.video{
-	position relative;
-	width: 100%;
-	top:0;
-	height: auto;
 }
 
 
