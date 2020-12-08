@@ -123,10 +123,6 @@ a.dropdown-item{
 .brag{
     color: rgb(9, 255, 0);
 }
-.brag.another{
-    color: rgb(51, 71, 50);
-    text-shadow: .1rem .1rem .2rem rgb(9, 255, 0);
-}
 
 /*Fixed BACKGROUND IMG*/
 .fixed {
@@ -140,16 +136,6 @@ a.dropdown-item{
     background-image: url('../img/generic/family.jpg');
     position: fixed;
 }
-.fixed-background.small{
-    padding: 2rem 0;
-}
-.fixed.facilities {
-    background-image: url('../img/generic/blank.jpg');
-    position: fixed;
-}
-.fxpad{
-    padding: 0.5rem 0.5rem;
-}
 
 /*TEXT*/
 .animalslist .container a{
@@ -157,9 +143,6 @@ a.dropdown-item{
     text-decoration: none;
     font-size: 1.5rem;
     text-shadow: .025rem .025rem .025rem rgb(9, 255, 0);
-}
-.text.contact.accomodation{
-    font-size: 2rem;
 }
 
 /*END BODY*/
@@ -271,4 +254,15 @@ a.dropdown-item{
     padding: 3rem 0;
 }
 
+.galery {
+    margin: 10px 50px;
+}
+.galery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+.galery img:hover{
+    transform: scale(1.1);
+}
 
