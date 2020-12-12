@@ -1,0 +1,54 @@
+<%- contentFor('title')%>
+Brisurs Zoo
+<%- contentFor('content')%>
+<!--Title-->      
+<div class="col-12 text-center mt-5">
+    <h1 class="text-dark pt-4">News</h1>
+    <div class="border-top border-primary w-25 mx-auto my-3"></div>
+<!--Search-->
+
+<form action="/search">
+  <input type="text" name="search" placeholder="Search.." autocomplete="off" >
+  <button class="btn btn-outline-dark btn-success btn-sm " type="submit">Search</button>
+  </form>
+
+<!--End Search-->
+</div>
+<!--End Title-->
+
+<!--Blank-->
+<div class="col-md-12 my-1">
+<p>&nbsp;</p>
+</div>
+
+<!--Content-->
+<div class="news">
+<div class="container">
+  <div class="row mt-1 text-justify">
+<%for(var i=(berita.length - 1); i>=0; i--){ %>
+
+<div class="container my-5">
+<div class="row py-2">
+
+<div class="col-lg-4"><img src="/img/news/<%=berita[i].img%>" class="w-100"></div>
+
+<div class="col-lg-8 mb-4 my-lg-auto">
+<h1 class="text-dark font-weight-bold mb-3"><%=berita[i].title%></h1>
+<h7><%=berita[i].date%></h7>
+<p class="mb-2"><%=berita[i].abstract%></p>
+<a href="/news_detail/<%=i%>" class="btn btn-outline-dark btn-md">Read More</a>
+</div>
+</div>
+</div>
+<%}%>
+
+</div>
+</div>
+
+</div>
+
+
+<!--Blank-->
+<div class="col-md-12 my-1">
+<p>&nbsp;</p>
+</div>

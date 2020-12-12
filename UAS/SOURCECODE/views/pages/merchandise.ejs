@@ -1,0 +1,36 @@
+<%- contentFor('title')%>
+Brisurs Zoo
+<%- contentFor('content')%>
+<!--Title-->
+<div class="col-12 text-center mt-5">
+    <h1 class="text-dark pt-4">Merchandise</h1>
+    <div class="border-top border-primary w-25 mx-auto my-3"></div>
+  </div>
+  
+  <!--Content-->
+  <div class="merchandise">
+      <div class="container">
+        <div class="row my-5 text-center">
+            <%for(var i=0; i<merchan.length; i++){ %>
+          
+                  <div class="col-md-2 my-2">
+                      <img src="../img/market/<%=merchan[i].img%>" alt="" class="w-100 rounded-circle" > 
+                      <h5>&nbsp;</h5>
+                      <h5><%=merchan[i].name%></h5>
+                      <h5>Rp.<%=merchan[i].price%></h5>
+                  </div>
+                  
+              
+            <%}%>
+               </div>
+      </div>
+            
+            </div>
+  
+    
+  
+  
+  <!--Blank-->
+  <div class="col-md-12 my-1">
+      <p>&nbsp;</p>
+  </div>

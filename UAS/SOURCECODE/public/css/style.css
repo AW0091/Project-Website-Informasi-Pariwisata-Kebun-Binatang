@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+/*Body*/
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #525960;
+}
+/*TOP BAR*/
+.top-bar{
+    background:rgb(0, 0, 0);
+    height: 1.8rem;
+    padding: .1rem 0;
+}
+.top-bar a{
+    color: white;
+    text-decoration: none; /*Remove underline*/
+    font-size: 0.7rem;
+}
+.top-bar a.TRUE{
+    color: cornflowerblue;
+}
+    
+/*END TOP BAR*/
+
+/*NAVIGATION*/
+.navbar-brand img{
+    height: 3rem;
+}
+.nav-item{
+    padding: .5rem;
+}
+.navbar{
+    background-color: #123017;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(24, 156, 53, 0.5);
+}
+.nav-link{
+    color: #ffffff!important;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: #207038!important;
+}
+div.dropdown-menu{
+    padding: 0 0;
+    border-color: #123017;
+}
+a.dropdown-item{
+    color: white;
+}
+/*END NAVIGATION*/
+
+/*CAROUSEL*/
+#carousel {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-1 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-2 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-3 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-4 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-5 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-6 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-7 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-8 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-9 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+#carousel-10 {
+	box-shadow: 0 1rem 1rem rgba(42, 99, 77, 0.377);
+}
+
+.carousel-inner {
+	max-height: 50rem!important;
+}
+
+/*Change Speed*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+	transition: transform .9s ease;
+}
+
+/*Carousel Content*/
+.carousel-caption {
+	position: absolute;
+	top: 54%;
+	transform: translateY(-50%);
+}
+
+.bg-custom{
+	background-color: rgba(0, 0, 0, .4);
+	color: white;
+	border-radius: 1rem;
+}
+
+.carousel-caption h1 {
+	font-size:3.8rem;
+	text-shadow: .1rem .1rem .3rem rgb(25, 51, 39);
+}
+.border-primary {
+	border-top: .2rem solid #7a563e!important;
+}
+.carousel-caption h5 {
+    padding: .5rem;
+	font-size: 1.2rem;
+	text-shadow: .1rem .1rem .2rem rgb(42, 78, 45);
+}
+.btn-lg {
+	border-radius: 0;
+	font-size: 1rem;
+	border-width: medium;
+}
+.btn-info {
+    background-color: #185f2a;
+	border: .1rem solid #123017;
+}
+.btn-rd {
+    background: rgba(37, 99, 158, 0.7);
+    border: .1rem solid #37c9ce;
+    color : white;
+    font-weight: bold;
+}
+.brag{
+    color: rgb(9, 255, 0);
+}
+
+/*Fixed BACKGROUND IMG*/
+.fixed {
+    background-image: url('../img/generic/award.jpg');
+    position: fixed;
+}
+.fixed-background {
+    padding: 10rem 0;
+}
+.fixed.another {
+    background-image: url('../img/generic/family.jpg');
+    position: fixed;
+}
+
+/*TEXT*/
+.animalslist .container a{
+    color: #123017;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: .025rem .025rem .025rem rgb(9, 255, 0);
+}
+
+/*END BODY*/
+
+/*FOOTER*/
+.footer{
+    background-color: black;
+    padding: 2rem 0;
+}
+
+.content{
+    margin: 20px 0 0 0;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content .social{
+    margin : 20px 0 0 0;
+}
+
+.content .social a{
+    padding: 0 0.5rem;
+}
+
+.content .social a span{
+    height:40px;
+    width:40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.content .social a span:hover{
+    background: #f12020;
+
+}
+
+.phone{
+    padding: 0.8rem 0;
+    color:#007bff;
+}
+/*END FOOTER*/
+
+/*SOCKET*/
+/*MEDIA QUERIES*/
+@media (max-width: 119.98px){
+    
+}
+
+@media (max-width: 767.98px){
+   
+}
+
+@media (min-width: 576px){
+    
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+    
+}
+
+/*BOOTSTRAP MOBILE GUTTER FIX*/
+.row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+/*Fixed Background Image*/
+.fixed-background{
+    position: relative;
+    width: 100%;
+    z-index: 1000!important;
+}
+.fixed-wrap{
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+.fixed{
+    z-index: -999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+.padding{
+    padding: 3rem 0;
+}
+
+
+

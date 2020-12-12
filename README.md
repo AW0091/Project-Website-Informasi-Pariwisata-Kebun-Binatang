@@ -1,8 +1,8 @@
 # WEBSITE INFORMASI PARIWISATA KEBUN BINATANG
 ## Dibuat oleh : 
-##### - Jody Setiawan (535180064), 
-##### - Bryan Albert (535180088), 
-##### - Gregorius Andrew Winata (535180091). 
+##### [Front-End && Back-End] Gregorius Andrew Winata (535180091),
+##### [Front-End] Jody Setiawan (535180064), 
+##### [Front-End] Bryan Albert (535180088). 
 ## 5W1H
 ##### 1. Who is the audience?
 Calon dan pengunjung kebun binatang "BRISURS".
