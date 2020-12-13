@@ -1,0 +1,48 @@
+<%- contentFor('title')%>
+Brisurs Zoo
+<%- contentFor('content') %>
+
+ <!--Promo-->
+ <div class="container">
+  <div class="row my-5">
+    <div class="col-md-2 my-1">
+      <p class="lead mb-3">Welcome, <%= name %></p>
+      <a href="/logout" class="btn btn-warning"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+    <div class="col-md-8 my-1 text-center">
+      <h1 class="text-dark pt-4">Promo</h1>
+      <div class="border-top border-primary w-25 mx-auto my-3"></div>
+      <%for(var i=(promo.length-1); i>=0; i--){ %>
+
+        <img src="../img/generic/promo/<%=promo[i].img%>" class="rounded w-100" alt="" >
+        <p>&nbsp;</p>
+        
+   
+   
+  <%}%>
+
+</div>
+<div class="col-md-2 my-1"></div>
+  </div>
+</div>
+
+<!--Fee-->
+<div class="container">
+    <div class="row my-5">
+      <div class="col-md-2 my-1"></div>
+      <div class="col-md-8 my-1 text-center">
+        <h1 class="text-dark pt-4">Entry Fee</h1>
+        <div class="border-top border-primary w-25 mx-auto my-3"></div>
+        <img src="../img/generic/entry.png" class="rounded w-100" alt="" >
+      </div>
+      
+    </div>
+  </div>
+  
+ 
+    
+
+  <!--Blank-->
+  <div class="col-md-12 my-1">
+      <p>&nbsp;</p>
+  </div>

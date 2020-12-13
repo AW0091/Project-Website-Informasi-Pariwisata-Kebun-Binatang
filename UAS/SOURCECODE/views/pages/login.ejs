@@ -1,0 +1,54 @@
+<%- contentFor('title') %>
+Brisurs Zoo
+<%- contentFor('content') %>
+
+  <!--Blank-->
+  <div class="col-md-12 my-1">
+    <p>&nbsp;</p>
+</div>
+
+<div class="container-md mt-3">
+    <div class="card border-success">
+      <div class="card-body">
+        <h1 class="card-title">Member Login</h1>
+  
+        <h5 class="card-subtitle mb-2 text-muted">
+          Use your credentials to access this system.
+        </h5>
+        <%- include ("partials/messages"); %>
+        <br />
+        <form action="/login" method="POST">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="form-control"
+              placeholder="Enter Password"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+        <p class="lead mt-4">
+          No Account? <a href="/register">Register</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!--Blank-->
+  <div class="col-md-12 my-1">
+    <p>&nbsp;</p>
+</div>
+  

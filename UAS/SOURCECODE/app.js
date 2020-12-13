@@ -4,7 +4,12 @@ const session = require('express-session');
 const layouts = require('express-ejs-layouts');
 const ejsLint = require('ejs-lint');
 const mongoose = require('mongoose');
+const flash = require("connect-flash");
+const passport = require("passport");
 const app = express();
+
+//passport config
+require("./config/passport")(passport);
 
 mongoose.connect("mongodb://127.0.0.1:27017/project-brisurs",{
     useNewUrlParser: true, useUnifiedTopology: true
@@ -37,9 +42,32 @@ app.set("layout extractStyles", true);
 // place all scripts block in the layout at the end
 app.set("layout extractScripts", true);
 
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+//connect flash
+app.use(flash());
+
+// global var
+app.use((req, res, next) => {
+  res.locals.success_msg = req.flash("success_msg");
+  res.locals.error_msg = req.flash("error_msg");
+  res.locals.error = req.flash("error");
+  next();
+});
+
 // routes
+
+const index = require('./routes/index');
+
+app.use('/', index);
+
+const users = require('./routes/users');
+
+app.use('/', users);
+
 const home = require('./routes/home');
-const router = require("./routes/home");
 
 app.use('/', home);
 
@@ -98,6 +126,8 @@ app.use('/', search);
 const disclaimer = require('./routes/disclaimer');
 
 app.use('/', disclaimer);
+
+
 
 app.get("*", function(req,res){
     res.send("Page Not Found!");
