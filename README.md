@@ -1,6 +1,7 @@
 # WEBSITE INFORMASI PARIWISATA KEBUN BINATANG
-## Link : https://brisurs-zoo-project.herokuapp.com/
-### Dibuat oleh : 
+## Project Link : 
+https://brisurs-zoo-project.herokuapp.com/
+## Dibuat oleh : 
 ##### [Front-End && Back-End] Gregorius Andrew Winata (535180091),
 ##### [Front-End] Jody Setiawan (535180064), 
 ##### [Front-End] Bryan Albert (535180088). 
