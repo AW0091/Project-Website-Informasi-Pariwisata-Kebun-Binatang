@@ -11,7 +11,7 @@ const app = express();
 //passport config
 require("./config/passport")(passport);
 
-mongoose.connect("mongodb://127.0.0.1:27017/project-brisurs",{
+mongoose.connect(""/*Link to mongoDb Atlas, Secret*/,{
     useNewUrlParser: true, useUnifiedTopology: true
 }, function(error){
     if(error){
